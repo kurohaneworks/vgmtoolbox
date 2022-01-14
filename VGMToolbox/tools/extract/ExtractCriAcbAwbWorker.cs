@@ -43,6 +43,12 @@ namespace VGMToolbox.tools.extract
 
                     CriAcbFile acb = new CriAcbFile(fs, 0, extractStruct.IncludeCueIdInFileName);
                     acb.ExtractAll();
+
+                    if (acb.ExternalAwb.SubKey != 0x0)
+                    {
+                        this.progressStruct.GenericMessage = String.Format("AWB SubKey: 0x{0}", acb.ExternalAwb.SubKey.ToString("X4"));
+                        ReportProgress(Constants.ProgressMessageOnly, this.progressStruct);
+                    }
                 }
                 else if (ParseFile.CompareSegment(magicBytes, 0, CriAfs2Archive.SIGNATURE))
                 {
@@ -51,6 +57,12 @@ namespace VGMToolbox.tools.extract
 
                     CriAfs2Archive afs2 = new CriAfs2Archive(fs, 0);
                     afs2.ExtractAll();
+
+                    if (afs2.SubKey != 0x0)
+                    {
+                        this.progressStruct.GenericMessage = String.Format("AWB SubKey: 0x{0}", afs2.SubKey.ToString("X4"));
+                        ReportProgress(Constants.ProgressMessageOnly, this.progressStruct);
+                    }
                 }
                 else
                 {
