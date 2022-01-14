@@ -46,7 +46,7 @@ namespace VGMToolbox.tools.extract
 
                     if (acb.ExternalAwb.SubKey != 0x0)
                     {
-                        this.progressStruct.GenericMessage = String.Format("AWB SubKey: 0x{0}", acb.ExternalAwb.SubKey.ToString("X4"));
+                        this.progressStruct.GenericMessage = String.Format("AWB SubKey: 0x{0}.{1}", acb.ExternalAwb.SubKey.ToString("X4"), Environment.NewLine);
                         ReportProgress(Constants.ProgressMessageOnly, this.progressStruct);
                     }
                 }
@@ -60,7 +60,7 @@ namespace VGMToolbox.tools.extract
 
                     if (afs2.SubKey != 0x0)
                     {
-                        this.progressStruct.GenericMessage = String.Format("AWB SubKey: 0x{0}", afs2.SubKey.ToString("X4"));
+                        this.progressStruct.GenericMessage = String.Format("AWB SubKey: 0x{0}.{1}", afs2.SubKey.ToString("X4"), Environment.NewLine);
                         ReportProgress(Constants.ProgressMessageOnly, this.progressStruct);
                     }
                 }
