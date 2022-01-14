@@ -376,8 +376,8 @@ namespace VGMToolbox.format.util
         public static void InterleaveRiffToWavOutputFiles(string[] inputFiles, string outputFile,
             InterleaveRiffFilesOptionsStruct interleaveOptions)
         {
-            uint frequency;
-            uint channels;
+            //uint frequency;
+            //uint channels;
 
             // verify that two or more files have been input
             if (inputFiles.Length < 2)

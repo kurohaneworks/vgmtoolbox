@@ -266,23 +266,23 @@ namespace VGMToolbox.format
         // from Free60 wiki
         public static int ComputeDataBlockNumber(int xBlock, uint headerSize, byte blockSeparation)
         {
-            int xBlockShift;
+            //int xBlockShift;
 
-            if (((headerSize + 0xFFF) & 0xF000) == 0xB000)
-            {
-                xBlockShift = 1;
-            }
-            else
-            {
-                if ((blockSeparation & 1) == 1)
-                {
-                    xBlockShift = 0;
-                }
-                else
-                {
-                    xBlockShift = 1;
-                }
-            }
+            //if (((headerSize + 0xFFF) & 0xF000) == 0xB000)
+            //{
+            //    xBlockShift = 1;
+            //}
+            //else
+            //{
+            //    if ((blockSeparation & 1) == 1)
+            //    {
+            //        xBlockShift = 0;
+            //    }
+            //    else
+            //    {
+            //        xBlockShift = 1;
+            //    }
+            //}
 
             int xBase = ((xBlock + 0xAA) / 0xAA);
 

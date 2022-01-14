@@ -110,7 +110,7 @@ namespace VGMToolbox.format
 
                         if (currentOffset == 0x4C7DC)
                         {
-                            int ccc = 1;
+                            //int ccc = 1;
                         }
                         
                         blockSize = this.GetBlockSize(fs, currentOffset);

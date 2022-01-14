@@ -91,7 +91,7 @@ namespace VGMToolbox.format.util
         {
             string ret = String.Empty;
             System.Text.Encoding enc = System.Text.Encoding.ASCII;
-            long testCoefficient;
+            //long testCoefficient;
  
             int dspInterleaveType =
                 GetDspInterleave(pGenhCreationStruct.Interleave, pGenhCreationStruct.Channels);

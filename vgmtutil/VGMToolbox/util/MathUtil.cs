@@ -14,7 +14,8 @@ namespace VGMToolbox.util
                 results = JSUtil.Util.Eval(expression);
                 outputValue = Convert.ToString((long)Convert.ToUInt64(results), 10);
             }
-            catch (Exception ex)
+            //catch (Exception ex)
+            catch (Exception)
             {
                 outputValue = null;
             }

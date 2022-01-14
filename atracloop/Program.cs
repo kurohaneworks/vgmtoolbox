@@ -142,7 +142,8 @@ namespace atracloop
 
                 ret = ParseFile.GetRiffCalculatedVaryingByteValueAtAbsoluteOffset(fs, riffCalculatingOffset, true);
             }
-            catch (IndexOutOfRangeException iorEx)
+            //catch (IndexOutOfRangeException iorEx)
+            catch (IndexOutOfRangeException)
             {
                 // Console.WriteLine(String.Format("Error processing RIFF item for <{0}>: {1}", Path.GetFileName(fs.Name), iorEx.Message));
             }

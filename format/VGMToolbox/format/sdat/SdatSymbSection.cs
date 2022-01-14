@@ -84,22 +84,22 @@ namespace VGMToolbox.format.sdat
         private byte[] symbRecordPlayer2Offset;
         private byte[] symbRecordStrmOffset;
 
-        private byte[][] symbSeqSubRecords;
+        //private byte[][] symbSeqSubRecords;
         private byte[][] symbSeqFileNames;
 
         private byte[][] symbSeqArcFileNames;
 
-        private byte[][] symbBankSubRecords;
+        //private byte[][] symbBankSubRecords;
         private byte[][] symbBankFileNames;
-        private byte[][] symbWaveArcSubRecords;
+        //private byte[][] symbWaveArcSubRecords;
         private byte[][] symbWaveArcFileNames;
-        private byte[][] symbPlayerSubRecords;
+        //private byte[][] symbPlayerSubRecords;
         private byte[][] symbPlayerFileNames;
-        private byte[][] symbGroupSubRecords;
+        //private byte[][] symbGroupSubRecords;
         private byte[][] symbGroupFileNames;
-        private byte[][] symbPlayer2SubRecords;
+        //private byte[][] symbPlayer2SubRecords;
         private byte[][] symbPlayer2FileNames;
-        private byte[][] symbStrmSubRecords;
+        //private byte[][] symbStrmSubRecords;
         private byte[][] symbStrmFileNames;
 
         private SdatSymbolRec sdatSymbolRecSeq;

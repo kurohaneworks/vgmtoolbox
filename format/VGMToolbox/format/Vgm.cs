@@ -93,7 +93,7 @@ namespace VGMToolbox.format
         private byte[] totalNumOfSamples;
         private byte[] loopOffset;
         private byte[] loopNumOfSamples;
-        private byte[] vgmData;
+        private byte[] vgmData = null;
 
         public byte[] SignatureTag { get { return this.signatureTag; } }
         public byte[] EofOffset { get { return this.eofOffset; } }

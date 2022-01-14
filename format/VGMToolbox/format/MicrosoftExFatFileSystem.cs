@@ -586,7 +586,7 @@ namespace VGMToolbox.format
             byte[] secondaryRecord;
             byte entryType = 0xFF;
 
-            MicrosoftExFatDirectoryStructure directory;
+            //MicrosoftExFatDirectoryStructure directory;
             MicrosoftExFatFileStructure newFile;
             MicrosoftExFatDirectoryStructure newDirectory;
             ulong objectOffset;

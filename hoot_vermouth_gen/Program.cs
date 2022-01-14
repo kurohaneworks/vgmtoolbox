@@ -89,7 +89,7 @@ namespace hoot_vermouth_gen
 
 
 
-                int x = 1;
+                //int x = 1;
 
                 // write output file
 

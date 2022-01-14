@@ -39,16 +39,16 @@ namespace VGMToolbox.format
         private const int DEVICE_FLAG_OFFSET = 0x0F;
         private const int DEVICE_FLAG_LENGTH = 0x01;
 
-        private byte[] asciiSignature;
-        private byte[] loadAddress;
-        private byte[] loadSize;
-        private byte[] initAddress;
-        private byte[] playAddress;
-        private byte[] bankStartNo;
-        private byte[] bankedMode;
-        private byte[] extraHeaderSize;
-        private byte[] deviceFlag;
-        private byte[] data;
+        private byte[] asciiSignature = null;
+        private byte[] loadAddress = null;
+        private byte[] loadSize = null;
+        private byte[] initAddress = null;
+        private byte[] playAddress = null;
+        private byte[] bankStartNo = null;
+        private byte[] bankedMode = null;
+        private byte[] extraHeaderSize = null;
+        private byte[] deviceFlag = null;
+        private byte[] data = null;
 
         Dictionary<string, string> tagHash = new Dictionary<string, string>();
 
