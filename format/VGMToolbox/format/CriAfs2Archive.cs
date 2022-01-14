@@ -27,6 +27,7 @@ namespace VGMToolbox.format
         public byte[] Version { set; get; }
         public uint FileCount { set; get; }
         public uint ByteAlignment { set; get; }
+        public uint SubKey { set; get; }
         public Dictionary <ushort, CriAfs2File> Files { set; get; }
 
         public CriAfs2Archive(FileStream fs, long offset)
@@ -56,7 +57,8 @@ namespace VGMToolbox.format
                     throw new FormatException(String.Format("ERROR, file count exceeds max value for ushort.  Please report this at official feedback forums (see 'Other' menu item).", fs.Name));
                 }
                 
-                this.ByteAlignment = ParseFile.ReadUintLE(fs, offset + 0xC);
+                this.ByteAlignment = ParseFile.ReadUshortLE(fs, offset + 0xC);
+                this.SubKey = ParseFile.ReadUshortLE(fs, offset + 0xE);
                 this.Files = new Dictionary<ushort, CriAfs2File>((int)this.FileCount);
 
                 CriAfs2File dummy;
