@@ -44,9 +44,20 @@ namespace VGMToolbox.tools.extract
                     CriAcbFile acb = new CriAcbFile(fs, 0, extractStruct.IncludeCueIdInFileName);
                     acb.ExtractAll();
 
-                    if (acb.ExternalAwb.SubKey != 0x0)
+                    string key = null;
+
+                    if (acb.ExternalAwb != null && acb.ExternalAwb.SubKey != 0x0)
                     {
-                        this.progressStruct.GenericMessage = String.Format("AWB SubKey: 0x{0}.{1}", acb.ExternalAwb.SubKey.ToString("X4"), Environment.NewLine);
+                        key = acb.ExternalAwb.SubKey.ToString("X4");
+                    }
+                    else if (acb.InternalAwb != null && acb.InternalAwb.SubKey != 0x0)
+                    {
+                        key = acb.InternalAwb.SubKey.ToString("X4");
+                    }
+
+                    if (key != null)
+                    {
+                        this.progressStruct.GenericMessage = String.Format("AWB SubKey: 0x{0}.{1}", key, Environment.NewLine);
                         ReportProgress(Constants.ProgressMessageOnly, this.progressStruct);
                     }
                 }
