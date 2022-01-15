@@ -279,10 +279,10 @@
             this.tabPage2.Controls.Add(this.grpDatCreator_Options);
             this.tabPage2.Controls.Add(this.grpDatCreator_Header);
             this.tabPage2.Controls.Add(this.btnDatCreator_BuildDat);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Location = new System.Drawing.Point(4, 24);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(682, 198);
+            this.tabPage2.Size = new System.Drawing.Size(682, 196);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Datafile Creator";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -322,7 +322,7 @@
             this.lblDatCreator_DestinationFolder.AutoSize = true;
             this.lblDatCreator_DestinationFolder.Location = new System.Drawing.Point(309, 154);
             this.lblDatCreator_DestinationFolder.Name = "lblDatCreator_DestinationFolder";
-            this.lblDatCreator_DestinationFolder.Size = new System.Drawing.Size(43, 13);
+            this.lblDatCreator_DestinationFolder.Size = new System.Drawing.Size(52, 15);
             this.lblDatCreator_DestinationFolder.TabIndex = 6;
             this.lblDatCreator_DestinationFolder.Text = "Datafile";
             // 
@@ -330,7 +330,7 @@
             // 
             this.tbDatCreator_OutputDat.Location = new System.Drawing.Point(312, 171);
             this.tbDatCreator_OutputDat.Name = "tbDatCreator_OutputDat";
-            this.tbDatCreator_OutputDat.Size = new System.Drawing.Size(259, 20);
+            this.tbDatCreator_OutputDat.Size = new System.Drawing.Size(259, 23);
             this.tbDatCreator_OutputDat.TabIndex = 5;
             // 
             // lblDatCreator_SourceFolder
@@ -338,7 +338,7 @@
             this.lblDatCreator_SourceFolder.AutoSize = true;
             this.lblDatCreator_SourceFolder.Location = new System.Drawing.Point(9, 154);
             this.lblDatCreator_SourceFolder.Name = "lblDatCreator_SourceFolder";
-            this.lblDatCreator_SourceFolder.Size = new System.Drawing.Size(73, 13);
+            this.lblDatCreator_SourceFolder.Size = new System.Drawing.Size(87, 15);
             this.lblDatCreator_SourceFolder.TabIndex = 4;
             this.lblDatCreator_SourceFolder.Text = "Source Folder";
             // 
@@ -346,7 +346,7 @@
             // 
             this.tbDatCreator_SourceFolder.Location = new System.Drawing.Point(9, 171);
             this.tbDatCreator_SourceFolder.Name = "tbDatCreator_SourceFolder";
-            this.tbDatCreator_SourceFolder.Size = new System.Drawing.Size(259, 20);
+            this.tbDatCreator_SourceFolder.Size = new System.Drawing.Size(259, 23);
             this.tbDatCreator_SourceFolder.TabIndex = 3;
             // 
             // grpDatCreator_Options
@@ -365,7 +365,7 @@
             this.label23.ForeColor = System.Drawing.Color.Red;
             this.label23.Location = new System.Drawing.Point(-3, 119);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(203, 13);
+            this.label23.Size = new System.Drawing.Size(253, 15);
             this.label23.TabIndex = 1;
             this.label23.Text = "decompressing .zip files not yet supported";
             // 
@@ -403,7 +403,7 @@
             this.lblDatCreator_HeaderUrl.AutoSize = true;
             this.lblDatCreator_HeaderUrl.Location = new System.Drawing.Point(232, 116);
             this.lblDatCreator_HeaderUrl.Name = "lblDatCreator_HeaderUrl";
-            this.lblDatCreator_HeaderUrl.Size = new System.Drawing.Size(29, 13);
+            this.lblDatCreator_HeaderUrl.Size = new System.Drawing.Size(31, 15);
             this.lblDatCreator_HeaderUrl.TabIndex = 19;
             this.lblDatCreator_HeaderUrl.Text = "URL";
             // 
@@ -411,7 +411,7 @@
             // 
             this.tbDatCreator_Url.Location = new System.Drawing.Point(294, 112);
             this.tbDatCreator_Url.Name = "tbDatCreator_Url";
-            this.tbDatCreator_Url.Size = new System.Drawing.Size(163, 20);
+            this.tbDatCreator_Url.Size = new System.Drawing.Size(163, 23);
             this.tbDatCreator_Url.TabIndex = 18;
             // 
             // lblDatCreator_HeaderHomepage
@@ -419,7 +419,7 @@
             this.lblDatCreator_HeaderHomepage.AutoSize = true;
             this.lblDatCreator_HeaderHomepage.Location = new System.Drawing.Point(232, 92);
             this.lblDatCreator_HeaderHomepage.Name = "lblDatCreator_HeaderHomepage";
-            this.lblDatCreator_HeaderHomepage.Size = new System.Drawing.Size(59, 13);
+            this.lblDatCreator_HeaderHomepage.Size = new System.Drawing.Size(70, 15);
             this.lblDatCreator_HeaderHomepage.TabIndex = 17;
             this.lblDatCreator_HeaderHomepage.Text = "Homepage";
             // 
@@ -427,7 +427,7 @@
             // 
             this.tbDatCreator_Homepage.Location = new System.Drawing.Point(294, 88);
             this.tbDatCreator_Homepage.Name = "tbDatCreator_Homepage";
-            this.tbDatCreator_Homepage.Size = new System.Drawing.Size(163, 20);
+            this.tbDatCreator_Homepage.Size = new System.Drawing.Size(163, 23);
             this.tbDatCreator_Homepage.TabIndex = 16;
             // 
             // lblDatCreator_HeaderEmail
@@ -435,7 +435,7 @@
             this.lblDatCreator_HeaderEmail.AutoSize = true;
             this.lblDatCreator_HeaderEmail.Location = new System.Drawing.Point(232, 68);
             this.lblDatCreator_HeaderEmail.Name = "lblDatCreator_HeaderEmail";
-            this.lblDatCreator_HeaderEmail.Size = new System.Drawing.Size(33, 13);
+            this.lblDatCreator_HeaderEmail.Size = new System.Drawing.Size(37, 15);
             this.lblDatCreator_HeaderEmail.TabIndex = 15;
             this.lblDatCreator_HeaderEmail.Text = "EMail";
             // 
@@ -443,7 +443,7 @@
             // 
             this.tbDatCreator_Email.Location = new System.Drawing.Point(294, 64);
             this.tbDatCreator_Email.Name = "tbDatCreator_Email";
-            this.tbDatCreator_Email.Size = new System.Drawing.Size(163, 20);
+            this.tbDatCreator_Email.Size = new System.Drawing.Size(163, 23);
             this.tbDatCreator_Email.TabIndex = 14;
             // 
             // lblDatCreator_HeaderDate
@@ -451,7 +451,7 @@
             this.lblDatCreator_HeaderDate.AutoSize = true;
             this.lblDatCreator_HeaderDate.Location = new System.Drawing.Point(232, 44);
             this.lblDatCreator_HeaderDate.Name = "lblDatCreator_HeaderDate";
-            this.lblDatCreator_HeaderDate.Size = new System.Drawing.Size(30, 13);
+            this.lblDatCreator_HeaderDate.Size = new System.Drawing.Size(35, 15);
             this.lblDatCreator_HeaderDate.TabIndex = 13;
             this.lblDatCreator_HeaderDate.Text = "Date";
             // 
@@ -459,7 +459,7 @@
             // 
             this.tbDatCreator_Date.Location = new System.Drawing.Point(294, 40);
             this.tbDatCreator_Date.Name = "tbDatCreator_Date";
-            this.tbDatCreator_Date.Size = new System.Drawing.Size(163, 20);
+            this.tbDatCreator_Date.Size = new System.Drawing.Size(163, 23);
             this.tbDatCreator_Date.TabIndex = 12;
             // 
             // lblDatCreator_HeaderCategory
@@ -467,7 +467,7 @@
             this.lblDatCreator_HeaderCategory.AutoSize = true;
             this.lblDatCreator_HeaderCategory.Location = new System.Drawing.Point(232, 21);
             this.lblDatCreator_HeaderCategory.Name = "lblDatCreator_HeaderCategory";
-            this.lblDatCreator_HeaderCategory.Size = new System.Drawing.Size(49, 13);
+            this.lblDatCreator_HeaderCategory.Size = new System.Drawing.Size(60, 15);
             this.lblDatCreator_HeaderCategory.TabIndex = 11;
             this.lblDatCreator_HeaderCategory.Text = "Category";
             // 
@@ -475,7 +475,7 @@
             // 
             this.tbDatCreator_Category.Location = new System.Drawing.Point(294, 17);
             this.tbDatCreator_Category.Name = "tbDatCreator_Category";
-            this.tbDatCreator_Category.Size = new System.Drawing.Size(163, 20);
+            this.tbDatCreator_Category.Size = new System.Drawing.Size(163, 23);
             this.tbDatCreator_Category.TabIndex = 10;
             // 
             // lblDatCreator_HeaderComment
@@ -483,7 +483,7 @@
             this.lblDatCreator_HeaderComment.AutoSize = true;
             this.lblDatCreator_HeaderComment.Location = new System.Drawing.Point(3, 116);
             this.lblDatCreator_HeaderComment.Name = "lblDatCreator_HeaderComment";
-            this.lblDatCreator_HeaderComment.Size = new System.Drawing.Size(51, 13);
+            this.lblDatCreator_HeaderComment.Size = new System.Drawing.Size(65, 15);
             this.lblDatCreator_HeaderComment.TabIndex = 9;
             this.lblDatCreator_HeaderComment.Text = "Comment";
             // 
@@ -491,7 +491,7 @@
             // 
             this.tbDatCreator_Comment.Location = new System.Drawing.Point(65, 113);
             this.tbDatCreator_Comment.Name = "tbDatCreator_Comment";
-            this.tbDatCreator_Comment.Size = new System.Drawing.Size(163, 20);
+            this.tbDatCreator_Comment.Size = new System.Drawing.Size(163, 23);
             this.tbDatCreator_Comment.TabIndex = 8;
             // 
             // lblDatCreator_HeaderAuthor
@@ -499,7 +499,7 @@
             this.lblDatCreator_HeaderAuthor.AutoSize = true;
             this.lblDatCreator_HeaderAuthor.Location = new System.Drawing.Point(3, 92);
             this.lblDatCreator_HeaderAuthor.Name = "lblDatCreator_HeaderAuthor";
-            this.lblDatCreator_HeaderAuthor.Size = new System.Drawing.Size(38, 13);
+            this.lblDatCreator_HeaderAuthor.Size = new System.Drawing.Size(46, 15);
             this.lblDatCreator_HeaderAuthor.TabIndex = 7;
             this.lblDatCreator_HeaderAuthor.Text = "Author";
             // 
@@ -507,7 +507,7 @@
             // 
             this.tbDatCreator_Author.Location = new System.Drawing.Point(65, 88);
             this.tbDatCreator_Author.Name = "tbDatCreator_Author";
-            this.tbDatCreator_Author.Size = new System.Drawing.Size(163, 20);
+            this.tbDatCreator_Author.Size = new System.Drawing.Size(163, 23);
             this.tbDatCreator_Author.TabIndex = 6;
             // 
             // lblDatCreator_HeaderVersion
@@ -515,7 +515,7 @@
             this.lblDatCreator_HeaderVersion.AutoSize = true;
             this.lblDatCreator_HeaderVersion.Location = new System.Drawing.Point(3, 68);
             this.lblDatCreator_HeaderVersion.Name = "lblDatCreator_HeaderVersion";
-            this.lblDatCreator_HeaderVersion.Size = new System.Drawing.Size(42, 13);
+            this.lblDatCreator_HeaderVersion.Size = new System.Drawing.Size(49, 15);
             this.lblDatCreator_HeaderVersion.TabIndex = 5;
             this.lblDatCreator_HeaderVersion.Text = "Version";
             // 
@@ -523,7 +523,7 @@
             // 
             this.tbDatCreator_Version.Location = new System.Drawing.Point(65, 64);
             this.tbDatCreator_Version.Name = "tbDatCreator_Version";
-            this.tbDatCreator_Version.Size = new System.Drawing.Size(163, 20);
+            this.tbDatCreator_Version.Size = new System.Drawing.Size(163, 23);
             this.tbDatCreator_Version.TabIndex = 4;
             // 
             // lblDatCreator_HeaderDescription
@@ -531,7 +531,7 @@
             this.lblDatCreator_HeaderDescription.AutoSize = true;
             this.lblDatCreator_HeaderDescription.Location = new System.Drawing.Point(3, 44);
             this.lblDatCreator_HeaderDescription.Name = "lblDatCreator_HeaderDescription";
-            this.lblDatCreator_HeaderDescription.Size = new System.Drawing.Size(60, 13);
+            this.lblDatCreator_HeaderDescription.Size = new System.Drawing.Size(72, 15);
             this.lblDatCreator_HeaderDescription.TabIndex = 3;
             this.lblDatCreator_HeaderDescription.Text = "Description";
             // 
@@ -539,7 +539,7 @@
             // 
             this.tbDatCreator_Description.Location = new System.Drawing.Point(65, 40);
             this.tbDatCreator_Description.Name = "tbDatCreator_Description";
-            this.tbDatCreator_Description.Size = new System.Drawing.Size(163, 20);
+            this.tbDatCreator_Description.Size = new System.Drawing.Size(163, 23);
             this.tbDatCreator_Description.TabIndex = 2;
             // 
             // lblDatCreator_HeaderName
@@ -547,7 +547,7 @@
             this.lblDatCreator_HeaderName.AutoSize = true;
             this.lblDatCreator_HeaderName.Location = new System.Drawing.Point(3, 21);
             this.lblDatCreator_HeaderName.Name = "lblDatCreator_HeaderName";
-            this.lblDatCreator_HeaderName.Size = new System.Drawing.Size(35, 13);
+            this.lblDatCreator_HeaderName.Size = new System.Drawing.Size(42, 15);
             this.lblDatCreator_HeaderName.TabIndex = 1;
             this.lblDatCreator_HeaderName.Text = "Name";
             // 
@@ -555,7 +555,7 @@
             // 
             this.tbDatCreator_Name.Location = new System.Drawing.Point(65, 17);
             this.tbDatCreator_Name.Name = "tbDatCreator_Name";
-            this.tbDatCreator_Name.Size = new System.Drawing.Size(163, 20);
+            this.tbDatCreator_Name.Size = new System.Drawing.Size(163, 23);
             this.tbDatCreator_Name.TabIndex = 0;
             // 
             // btnDatCreator_BuildDat
@@ -576,9 +576,9 @@
             this.tabPage5.Controls.Add(this.btnRebuilder_Rebuild);
             this.tabPage5.Controls.Add(this.grpRebuilder_Datafile);
             this.tabPage5.Controls.Add(this.grpRebuilder_Directories);
-            this.tabPage5.Location = new System.Drawing.Point(4, 22);
+            this.tabPage5.Location = new System.Drawing.Point(4, 24);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(682, 198);
+            this.tabPage5.Size = new System.Drawing.Size(682, 196);
             this.tabPage5.TabIndex = 2;
             this.tabPage5.Text = "Rebuilder";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -599,7 +599,7 @@
             this.label24.ForeColor = System.Drawing.Color.Red;
             this.label24.Location = new System.Drawing.Point(6, 182);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(256, 13);
+            this.label24.Size = new System.Drawing.Size(326, 15);
             this.label24.TabIndex = 6;
             this.label24.Text = "remove rebuilt source from .zip files not yet supported";
             // 
@@ -621,7 +621,7 @@
             this.cbRebuilder_ScanOnly.AutoSize = true;
             this.cbRebuilder_ScanOnly.Location = new System.Drawing.Point(6, 56);
             this.cbRebuilder_ScanOnly.Name = "cbRebuilder_ScanOnly";
-            this.cbRebuilder_ScanOnly.Size = new System.Drawing.Size(210, 17);
+            this.cbRebuilder_ScanOnly.Size = new System.Drawing.Size(257, 19);
             this.cbRebuilder_ScanOnly.TabIndex = 4;
             this.cbRebuilder_ScanOnly.Text = "Scan Only (Do not move or delete files)";
             this.cbRebuilder_ScanOnly.UseVisualStyleBackColor = true;
@@ -632,7 +632,7 @@
             this.cbRebuilder_CompressOutput.AutoSize = true;
             this.cbRebuilder_CompressOutput.Location = new System.Drawing.Point(191, 17);
             this.cbRebuilder_CompressOutput.Name = "cbRebuilder_CompressOutput";
-            this.cbRebuilder_CompressOutput.Size = new System.Drawing.Size(107, 17);
+            this.cbRebuilder_CompressOutput.Size = new System.Drawing.Size(128, 19);
             this.cbRebuilder_CompressOutput.TabIndex = 3;
             this.cbRebuilder_CompressOutput.Text = "Compress Output";
             this.cbRebuilder_CompressOutput.UseVisualStyleBackColor = true;
@@ -643,7 +643,7 @@
             this.cbRebuilder_Overwrite.AutoSize = true;
             this.cbRebuilder_Overwrite.Location = new System.Drawing.Point(6, 37);
             this.cbRebuilder_Overwrite.Name = "cbRebuilder_Overwrite";
-            this.cbRebuilder_Overwrite.Size = new System.Drawing.Size(180, 17);
+            this.cbRebuilder_Overwrite.Size = new System.Drawing.Size(222, 19);
             this.cbRebuilder_Overwrite.TabIndex = 1;
             this.cbRebuilder_Overwrite.Text = "Update Sets (Overwrite Exisiting)";
             this.cbRebuilder_Overwrite.UseVisualStyleBackColor = true;
@@ -654,7 +654,7 @@
             this.cbRebuilder_RemoveSource.AutoSize = true;
             this.cbRebuilder_RemoveSource.Location = new System.Drawing.Point(6, 19);
             this.cbRebuilder_RemoveSource.Name = "cbRebuilder_RemoveSource";
-            this.cbRebuilder_RemoveSource.Size = new System.Drawing.Size(139, 17);
+            this.cbRebuilder_RemoveSource.Size = new System.Drawing.Size(162, 19);
             this.cbRebuilder_RemoveSource.TabIndex = 0;
             this.cbRebuilder_RemoveSource.Text = "Remove Rebuilt Source";
             this.cbRebuilder_RemoveSource.UseVisualStyleBackColor = true;
@@ -695,7 +695,7 @@
             // 
             this.tbRebuilder_Datafile.Location = new System.Drawing.Point(6, 19);
             this.tbRebuilder_Datafile.Name = "tbRebuilder_Datafile";
-            this.tbRebuilder_Datafile.Size = new System.Drawing.Size(259, 20);
+            this.tbRebuilder_Datafile.Size = new System.Drawing.Size(259, 23);
             this.tbRebuilder_Datafile.TabIndex = 0;
             // 
             // grpRebuilder_Directories
@@ -718,7 +718,7 @@
             this.lblRebuilder_DestinationDir.AutoSize = true;
             this.lblRebuilder_DestinationDir.Location = new System.Drawing.Point(312, 16);
             this.lblRebuilder_DestinationDir.Name = "lblRebuilder_DestinationDir";
-            this.lblRebuilder_DestinationDir.Size = new System.Drawing.Size(60, 13);
+            this.lblRebuilder_DestinationDir.Size = new System.Drawing.Size(73, 15);
             this.lblRebuilder_DestinationDir.TabIndex = 5;
             this.lblRebuilder_DestinationDir.Text = "Destination";
             // 
@@ -746,7 +746,7 @@
             // 
             this.tbRebuilder_DestinationDir.Location = new System.Drawing.Point(315, 32);
             this.tbRebuilder_DestinationDir.Name = "tbRebuilder_DestinationDir";
-            this.tbRebuilder_DestinationDir.Size = new System.Drawing.Size(259, 20);
+            this.tbRebuilder_DestinationDir.Size = new System.Drawing.Size(259, 23);
             this.tbRebuilder_DestinationDir.TabIndex = 2;
             // 
             // lblRebuilder_SourceDir
@@ -754,7 +754,7 @@
             this.lblRebuilder_SourceDir.AutoSize = true;
             this.lblRebuilder_SourceDir.Location = new System.Drawing.Point(3, 18);
             this.lblRebuilder_SourceDir.Name = "lblRebuilder_SourceDir";
-            this.lblRebuilder_SourceDir.Size = new System.Drawing.Size(41, 13);
+            this.lblRebuilder_SourceDir.Size = new System.Drawing.Size(47, 15);
             this.lblRebuilder_SourceDir.TabIndex = 1;
             this.lblRebuilder_SourceDir.Text = "Source";
             // 
@@ -762,7 +762,7 @@
             // 
             this.tbRebuilder_SourceDir.Location = new System.Drawing.Point(6, 32);
             this.tbRebuilder_SourceDir.Name = "tbRebuilder_SourceDir";
-            this.tbRebuilder_SourceDir.Size = new System.Drawing.Size(259, 20);
+            this.tbRebuilder_SourceDir.Size = new System.Drawing.Size(259, 23);
             this.tbRebuilder_SourceDir.TabIndex = 0;
             // 
             // tabPage6
@@ -771,9 +771,9 @@
             this.tabPage6.Controls.Add(this.label3);
             this.tabPage6.Controls.Add(this.groupBox1);
             this.tabPage6.Controls.Add(this.btnDatafileChecker_Check);
-            this.tabPage6.Location = new System.Drawing.Point(4, 22);
+            this.tabPage6.Location = new System.Drawing.Point(4, 24);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Size = new System.Drawing.Size(682, 198);
+            this.tabPage6.Size = new System.Drawing.Size(682, 196);
             this.tabPage6.TabIndex = 3;
             this.tabPage6.Text = "Datafile Checker";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -783,7 +783,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(3, 66);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(113, 13);
+            this.label6.Size = new System.Drawing.Size(136, 15);
             this.label6.TabIndex = 5;
             this.label6.Text = "Check for duplicates...";
             // 
@@ -793,7 +793,7 @@
             this.label3.ForeColor = System.Drawing.Color.Red;
             this.label3.Location = new System.Drawing.Point(9, 175);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(159, 13);
+            this.label3.Size = new System.Drawing.Size(194, 15);
             this.label3.TabIndex = 4;
             this.label3.Text = "Add these fields to languages.ini";
             // 
@@ -817,7 +817,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(312, 16);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(138, 13);
+            this.label5.Size = new System.Drawing.Size(172, 15);
             this.label5.TabIndex = 5;
             this.label5.Text = "Report(s) Destination Folder";
             // 
@@ -826,7 +826,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(3, 18);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(80, 13);
+            this.label4.Size = new System.Drawing.Size(96, 15);
             this.label4.TabIndex = 4;
             this.label4.Text = "Source Datafile";
             // 
@@ -854,14 +854,14 @@
             // 
             this.tbDatafileChecker_OutputPath.Location = new System.Drawing.Point(315, 32);
             this.tbDatafileChecker_OutputPath.Name = "tbDatafileChecker_OutputPath";
-            this.tbDatafileChecker_OutputPath.Size = new System.Drawing.Size(259, 20);
+            this.tbDatafileChecker_OutputPath.Size = new System.Drawing.Size(259, 23);
             this.tbDatafileChecker_OutputPath.TabIndex = 2;
             // 
             // tbDatafileChecker_SourceFile
             // 
             this.tbDatafileChecker_SourceFile.Location = new System.Drawing.Point(6, 32);
             this.tbDatafileChecker_SourceFile.Name = "tbDatafileChecker_SourceFile";
-            this.tbDatafileChecker_SourceFile.Size = new System.Drawing.Size(259, 20);
+            this.tbDatafileChecker_SourceFile.Size = new System.Drawing.Size(259, 23);
             this.tbDatafileChecker_SourceFile.TabIndex = 0;
             // 
             // btnDatafileChecker_Check
@@ -878,10 +878,10 @@
             // 
             this.tabPage1.Controls.Add(this.tabControl2);
             this.tabPage1.Controls.Add(this.treeViewTools);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Location = new System.Drawing.Point(4, 24);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(682, 198);
+            this.tabPage1.Size = new System.Drawing.Size(682, 196);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Examine";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -900,10 +900,10 @@
             // 
             this.tabPage4.Controls.Add(this.label8);
             this.tabPage4.Controls.Add(this.grpExamineMdx_XsfExplorer);
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Location = new System.Drawing.Point(4, 24);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(408, 160);
+            this.tabPage4.Size = new System.Drawing.Size(408, 158);
             this.tabPage4.TabIndex = 1;
             this.tabPage4.Text = "Tag Viewer";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -913,7 +913,7 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(9, 144);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(226, 13);
+            this.label8.Size = new System.Drawing.Size(290, 15);
             this.label8.TabIndex = 5;
             this.label8.Text = "Also see \\examine\\examine.txt for your output.";
             // 
@@ -945,7 +945,7 @@
             this.lblExamineXsf_SourceDirectory.AutoSize = true;
             this.lblExamineXsf_SourceDirectory.Location = new System.Drawing.Point(6, 17);
             this.lblExamineXsf_SourceDirectory.Name = "lblExamineXsf_SourceDirectory";
-            this.lblExamineXsf_SourceDirectory.Size = new System.Drawing.Size(73, 13);
+            this.lblExamineXsf_SourceDirectory.Size = new System.Drawing.Size(87, 15);
             this.lblExamineXsf_SourceDirectory.TabIndex = 5;
             this.lblExamineXsf_SourceDirectory.Text = "Source Folder";
             // 
@@ -964,7 +964,7 @@
             this.tbXsfSource.AllowDrop = true;
             this.tbXsfSource.Location = new System.Drawing.Point(9, 33);
             this.tbXsfSource.Name = "tbXsfSource";
-            this.tbXsfSource.Size = new System.Drawing.Size(209, 20);
+            this.tbXsfSource.Size = new System.Drawing.Size(209, 23);
             this.tbXsfSource.TabIndex = 2;
             this.tbXsfSource.DragDrop += new System.Windows.Forms.DragEventHandler(this.tbXsfSource_DragDrop);
             this.tbXsfSource.DragEnter += new System.Windows.Forms.DragEventHandler(this.tbXsfSource_DragEnter);
@@ -983,10 +983,10 @@
             // 
             this.tabPage3.Controls.Add(this.label19);
             this.tabPage3.Controls.Add(this.grpExamineMdx_PdxDiscovery);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Location = new System.Drawing.Point(4, 24);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(408, 160);
+            this.tabPage3.Size = new System.Drawing.Size(408, 158);
             this.tabPage3.TabIndex = 0;
             this.tabPage3.Text = "MDX";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -997,7 +997,7 @@
             this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.label19.Location = new System.Drawing.Point(37, 102);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(161, 13);
+            this.label19.Size = new System.Drawing.Size(196, 15);
             this.label19.TabIndex = 6;
             this.label19.Text = "Progress Bar Not hooked in here";
             // 
@@ -1021,7 +1021,7 @@
             this.cbMdxCheckPdxExist.AutoSize = true;
             this.cbMdxCheckPdxExist.Location = new System.Drawing.Point(268, 10);
             this.cbMdxCheckPdxExist.Name = "cbMdxCheckPdxExist";
-            this.cbMdxCheckPdxExist.Size = new System.Drawing.Size(87, 17);
+            this.cbMdxCheckPdxExist.Size = new System.Drawing.Size(99, 19);
             this.cbMdxCheckPdxExist.TabIndex = 5;
             this.cbMdxCheckPdxExist.Text = "Check Exists";
             this.toolTip_tbMdxSourceFolder.SetToolTip(this.cbMdxCheckPdxExist, "If checked, scan local folder for needed PDX file(s).");
@@ -1032,7 +1032,7 @@
             this.tbMdxSourceFolder.AllowDrop = true;
             this.tbMdxSourceFolder.Location = new System.Drawing.Point(9, 33);
             this.tbMdxSourceFolder.Name = "tbMdxSourceFolder";
-            this.tbMdxSourceFolder.Size = new System.Drawing.Size(209, 20);
+            this.tbMdxSourceFolder.Size = new System.Drawing.Size(209, 23);
             this.tbMdxSourceFolder.TabIndex = 1;
             this.toolTip_tbMdxSourceFolder.SetToolTip(this.tbMdxSourceFolder, "Files and Folders can be dragged and dropped here.");
             this.tbMdxSourceFolder.DragDrop += new System.Windows.Forms.DragEventHandler(this.tbMdxSourceFolder_DragDrop);
@@ -1063,7 +1063,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(6, 17);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 13);
+            this.label1.Size = new System.Drawing.Size(87, 15);
             this.label1.TabIndex = 3;
             this.label1.Text = "Source Folder";
             // 
@@ -1077,9 +1077,9 @@
             // tabPage9
             // 
             this.tabPage9.Controls.Add(this.tabControl3);
-            this.tabPage9.Location = new System.Drawing.Point(4, 22);
+            this.tabPage9.Location = new System.Drawing.Point(4, 24);
             this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Size = new System.Drawing.Size(682, 198);
+            this.tabPage9.Size = new System.Drawing.Size(682, 196);
             this.tabPage9.TabIndex = 6;
             this.tabPage9.Text = "Tools";
             this.tabPage9.UseVisualStyleBackColor = true;
@@ -1100,10 +1100,10 @@
             // tabPage10
             // 
             this.tabPage10.Controls.Add(this.tabControl4);
-            this.tabPage10.Location = new System.Drawing.Point(4, 22);
+            this.tabPage10.Location = new System.Drawing.Point(4, 24);
             this.tabPage10.Name = "tabPage10";
             this.tabPage10.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage10.Size = new System.Drawing.Size(674, 169);
+            this.tabPage10.Size = new System.Drawing.Size(674, 167);
             this.tabPage10.TabIndex = 0;
             this.tabPage10.Text = "Hoot";
             this.tabPage10.UseVisualStyleBackColor = true;
@@ -1124,10 +1124,10 @@
             this.tabPage12.Controls.Add(this.btnHoot_AddInfo);
             this.tabPage12.Controls.Add(this.gbHoot);
             this.tabPage12.Controls.Add(this.gbHoot_Destination);
-            this.tabPage12.Location = new System.Drawing.Point(4, 22);
+            this.tabPage12.Location = new System.Drawing.Point(4, 24);
             this.tabPage12.Name = "tabPage12";
             this.tabPage12.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage12.Size = new System.Drawing.Size(663, 144);
+            this.tabPage12.Size = new System.Drawing.Size(663, 142);
             this.tabPage12.TabIndex = 0;
             this.tabPage12.Text = "CSV Datafile";
             this.tabPage12.UseVisualStyleBackColor = true;
@@ -1137,10 +1137,10 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(3, 108);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(523, 13);
+            this.label7.Size = new System.Drawing.Size(649, 15);
             this.label7.TabIndex = 15;
             this.label7.Text = "Fetch information from the Hoot Archive CSV and add it to the ROM Management Data" +
-                "file (XML) format DATs";
+    "file (XML) format DATs";
             // 
             // btnHoot_AddInfo
             // 
@@ -1171,7 +1171,7 @@
             this.lblHoot_InputDatFile.AutoSize = true;
             this.lblHoot_InputDatFile.Location = new System.Drawing.Point(312, 16);
             this.lblHoot_InputDatFile.Name = "lblHoot_InputDatFile";
-            this.lblHoot_InputDatFile.Size = new System.Drawing.Size(74, 13);
+            this.lblHoot_InputDatFile.Size = new System.Drawing.Size(87, 15);
             this.lblHoot_InputDatFile.TabIndex = 5;
             this.lblHoot_InputDatFile.Text = "Hoot DAT File";
             // 
@@ -1197,7 +1197,7 @@
             // 
             this.tbHoot_DatSourceFile.Location = new System.Drawing.Point(315, 32);
             this.tbHoot_DatSourceFile.Name = "tbHoot_DatSourceFile";
-            this.tbHoot_DatSourceFile.Size = new System.Drawing.Size(259, 20);
+            this.tbHoot_DatSourceFile.Size = new System.Drawing.Size(259, 23);
             this.tbHoot_DatSourceFile.TabIndex = 2;
             // 
             // lblHoot_CsvFile
@@ -1205,7 +1205,7 @@
             this.lblHoot_CsvFile.AutoSize = true;
             this.lblHoot_CsvFile.Location = new System.Drawing.Point(3, 18);
             this.lblHoot_CsvFile.Name = "lblHoot_CsvFile";
-            this.lblHoot_CsvFile.Size = new System.Drawing.Size(28, 13);
+            this.lblHoot_CsvFile.Size = new System.Drawing.Size(31, 15);
             this.lblHoot_CsvFile.TabIndex = 1;
             this.lblHoot_CsvFile.Text = "CSV";
             // 
@@ -1213,7 +1213,7 @@
             // 
             this.tbHoot_CsvSourceFile.Location = new System.Drawing.Point(6, 32);
             this.tbHoot_CsvSourceFile.Name = "tbHoot_CsvSourceFile";
-            this.tbHoot_CsvSourceFile.Size = new System.Drawing.Size(259, 20);
+            this.tbHoot_CsvSourceFile.Size = new System.Drawing.Size(259, 23);
             this.tbHoot_CsvSourceFile.TabIndex = 0;
             // 
             // gbHoot_Destination
@@ -1240,7 +1240,7 @@
             // 
             this.tbHoot_DatDestinationFile.Location = new System.Drawing.Point(6, 19);
             this.tbHoot_DatDestinationFile.Name = "tbHoot_DatDestinationFile";
-            this.tbHoot_DatDestinationFile.Size = new System.Drawing.Size(259, 20);
+            this.tbHoot_DatDestinationFile.Size = new System.Drawing.Size(259, 23);
             this.tbHoot_DatDestinationFile.TabIndex = 0;
             // 
             // tabPage13
@@ -1249,10 +1249,10 @@
             this.tabPage13.Controls.Add(this.gbHootXML_Options);
             this.tabPage13.Controls.Add(this.label2);
             this.tabPage13.Controls.Add(this.gbHootXML_Source);
-            this.tabPage13.Location = new System.Drawing.Point(4, 22);
+            this.tabPage13.Location = new System.Drawing.Point(4, 24);
             this.tabPage13.Name = "tabPage13";
             this.tabPage13.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage13.Size = new System.Drawing.Size(663, 144);
+            this.tabPage13.Size = new System.Drawing.Size(663, 142);
             this.tabPage13.TabIndex = 1;
             this.tabPage13.Text = "XML Builder";
             this.tabPage13.UseVisualStyleBackColor = true;
@@ -1283,7 +1283,7 @@
             this.cbHootXML_SplitOutput.AutoSize = true;
             this.cbHootXML_SplitOutput.Location = new System.Drawing.Point(6, 38);
             this.cbHootXML_SplitOutput.Name = "cbHootXML_SplitOutput";
-            this.cbHootXML_SplitOutput.Size = new System.Drawing.Size(142, 17);
+            this.cbHootXML_SplitOutput.Size = new System.Drawing.Size(172, 19);
             this.cbHootXML_SplitOutput.TabIndex = 1;
             this.cbHootXML_SplitOutput.Text = "Output one file per game";
             this.cbHootXML_SplitOutput.UseVisualStyleBackColor = true;
@@ -1293,7 +1293,7 @@
             this.cbHootXML_CombineOutput.AutoSize = true;
             this.cbHootXML_CombineOutput.Location = new System.Drawing.Point(6, 19);
             this.cbHootXML_CombineOutput.Name = "cbHootXML_CombineOutput";
-            this.cbHootXML_CombineOutput.Size = new System.Drawing.Size(183, 17);
+            this.cbHootXML_CombineOutput.Size = new System.Drawing.Size(222, 19);
             this.cbHootXML_CombineOutput.TabIndex = 0;
             this.cbHootXML_CombineOutput.Text = "Combine output to single XML file";
             this.cbHootXML_CombineOutput.UseVisualStyleBackColor = true;
@@ -1303,7 +1303,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(6, 125);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(226, 13);
+            this.label2.Size = new System.Drawing.Size(273, 15);
             this.label2.TabIndex = 3;
             this.label2.Text = "Build Skeleton Hoot XML entries for NSF/GBS";
             // 
@@ -1323,7 +1323,7 @@
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(6, 42);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(171, 13);
+            this.label10.Size = new System.Drawing.Size(212, 15);
             this.label10.TabIndex = 2;
             this.label10.Text = "Drag and Drop folders or files here.";
             // 
@@ -1332,7 +1332,7 @@
             this.tbHootXML_Path.AllowDrop = true;
             this.tbHootXML_Path.Location = new System.Drawing.Point(6, 19);
             this.tbHootXML_Path.Name = "tbHootXML_Path";
-            this.tbHootXML_Path.Size = new System.Drawing.Size(259, 20);
+            this.tbHootXML_Path.Size = new System.Drawing.Size(259, 23);
             this.tbHootXML_Path.TabIndex = 1;
             this.tbHootXML_Path.DragDrop += new System.Windows.Forms.DragEventHandler(this.tbHootXML_Path_DragDrop);
             this.tbHootXML_Path.DragEnter += new System.Windows.Forms.DragEventHandler(this.tbHootXML_Path_DragEnter);
@@ -1342,10 +1342,10 @@
             this.tabPage11.Controls.Add(this.groupBox5);
             this.tabPage11.Controls.Add(this.btnNsfM3u_Cancel);
             this.tabPage11.Controls.Add(this.groupBox2);
-            this.tabPage11.Location = new System.Drawing.Point(4, 22);
+            this.tabPage11.Location = new System.Drawing.Point(4, 24);
             this.tabPage11.Name = "tabPage11";
             this.tabPage11.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage11.Size = new System.Drawing.Size(674, 169);
+            this.tabPage11.Size = new System.Drawing.Size(674, 167);
             this.tabPage11.TabIndex = 1;
             this.tabPage11.Text = "NSFE";
             this.tabPage11.UseVisualStyleBackColor = true;
@@ -1365,7 +1365,7 @@
             this.cbNSFE_OneM3uPerTrack.AutoSize = true;
             this.cbNSFE_OneM3uPerTrack.Location = new System.Drawing.Point(6, 19);
             this.cbNSFE_OneM3uPerTrack.Name = "cbNSFE_OneM3uPerTrack";
-            this.cbNSFE_OneM3uPerTrack.Size = new System.Drawing.Size(177, 17);
+            this.cbNSFE_OneM3uPerTrack.Size = new System.Drawing.Size(217, 19);
             this.cbNSFE_OneM3uPerTrack.TabIndex = 0;
             this.cbNSFE_OneM3uPerTrack.Text = "Output additional .m3u per track";
             this.cbNSFE_OneM3uPerTrack.UseVisualStyleBackColor = true;
@@ -1397,7 +1397,7 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(6, 42);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(171, 13);
+            this.label9.Size = new System.Drawing.Size(212, 15);
             this.label9.TabIndex = 5;
             this.label9.Text = "Drag and Drop folders or files here.";
             // 
@@ -1406,7 +1406,7 @@
             this.tbNSF_nsfe2m3uSource.AllowDrop = true;
             this.tbNSF_nsfe2m3uSource.Location = new System.Drawing.Point(6, 19);
             this.tbNSF_nsfe2m3uSource.Name = "tbNSF_nsfe2m3uSource";
-            this.tbNSF_nsfe2m3uSource.Size = new System.Drawing.Size(259, 20);
+            this.tbNSF_nsfe2m3uSource.Size = new System.Drawing.Size(259, 23);
             this.tbNSF_nsfe2m3uSource.TabIndex = 0;
             this.tbNSF_nsfe2m3uSource.DragDrop += new System.Windows.Forms.DragEventHandler(this.tbNSF_nsfe2m3uSource_DragDrop);
             this.tbNSF_nsfe2m3uSource.DragEnter += new System.Windows.Forms.DragEventHandler(this.tbNSF_nsfe2m3uSource_DragEnter);
@@ -1425,9 +1425,9 @@
             this.tabPage7.Controls.Add(this.groupBox6);
             this.tabPage7.Controls.Add(this.btnGbsM3u_Cancel);
             this.tabPage7.Controls.Add(this.groupBox3);
-            this.tabPage7.Location = new System.Drawing.Point(4, 22);
+            this.tabPage7.Location = new System.Drawing.Point(4, 24);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Size = new System.Drawing.Size(674, 169);
+            this.tabPage7.Size = new System.Drawing.Size(674, 167);
             this.tabPage7.TabIndex = 2;
             this.tabPage7.Text = "GBS";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -1447,7 +1447,7 @@
             this.cbGBS_OneM3uPerTrack.AutoSize = true;
             this.cbGBS_OneM3uPerTrack.Location = new System.Drawing.Point(6, 19);
             this.cbGBS_OneM3uPerTrack.Name = "cbGBS_OneM3uPerTrack";
-            this.cbGBS_OneM3uPerTrack.Size = new System.Drawing.Size(177, 17);
+            this.cbGBS_OneM3uPerTrack.Size = new System.Drawing.Size(217, 19);
             this.cbGBS_OneM3uPerTrack.TabIndex = 0;
             this.cbGBS_OneM3uPerTrack.Text = "Output additional .m3u per track";
             this.cbGBS_OneM3uPerTrack.UseVisualStyleBackColor = true;
@@ -1479,7 +1479,7 @@
             this.label13.AutoSize = true;
             this.label13.Location = new System.Drawing.Point(6, 42);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(171, 13);
+            this.label13.Size = new System.Drawing.Size(212, 15);
             this.label13.TabIndex = 3;
             this.label13.Text = "Drag and Drop folders or files here.";
             // 
@@ -1488,7 +1488,7 @@
             this.tbGBS_gbsm3uSource.AllowDrop = true;
             this.tbGBS_gbsm3uSource.Location = new System.Drawing.Point(6, 19);
             this.tbGBS_gbsm3uSource.Name = "tbGBS_gbsm3uSource";
-            this.tbGBS_gbsm3uSource.Size = new System.Drawing.Size(259, 20);
+            this.tbGBS_gbsm3uSource.Size = new System.Drawing.Size(259, 23);
             this.tbGBS_gbsm3uSource.TabIndex = 0;
             this.tbGBS_gbsm3uSource.DragDrop += new System.Windows.Forms.DragEventHandler(this.tbGBS_gbsm3uSource_DragDrop);
             this.tbGBS_gbsm3uSource.DragEnter += new System.Windows.Forms.DragEventHandler(this.tbGBS_gbsm3uSource_DragEnter);
@@ -1505,9 +1505,9 @@
             // tabPage8
             // 
             this.tabPage8.Controls.Add(this.tabControl5);
-            this.tabPage8.Location = new System.Drawing.Point(4, 22);
+            this.tabPage8.Location = new System.Drawing.Point(4, 24);
             this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Size = new System.Drawing.Size(674, 169);
+            this.tabPage8.Size = new System.Drawing.Size(674, 167);
             this.tabPage8.TabIndex = 3;
             this.tabPage8.Text = "xSF";
             this.tabPage8.UseVisualStyleBackColor = true;
@@ -1528,10 +1528,10 @@
             this.tabPage14.Controls.Add(this.btnXsfPsf2Exe_Cancel);
             this.tabPage14.Controls.Add(this.groupBox4);
             this.tabPage14.Controls.Add(this.grpXsfPsf2Exe_Source);
-            this.tabPage14.Location = new System.Drawing.Point(4, 22);
+            this.tabPage14.Location = new System.Drawing.Point(4, 24);
             this.tabPage14.Name = "tabPage14";
             this.tabPage14.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage14.Size = new System.Drawing.Size(663, 144);
+            this.tabPage14.Size = new System.Drawing.Size(663, 142);
             this.tabPage14.TabIndex = 0;
             this.tabPage14.Text = "xSF2EXE";
             this.tabPage14.UseVisualStyleBackColor = true;
@@ -1562,7 +1562,7 @@
             this.cbXsfPsf2Exe_StripGsfHeader.AutoSize = true;
             this.cbXsfPsf2Exe_StripGsfHeader.Location = new System.Drawing.Point(6, 38);
             this.cbXsfPsf2Exe_StripGsfHeader.Name = "cbXsfPsf2Exe_StripGsfHeader";
-            this.cbXsfPsf2Exe_StripGsfHeader.Size = new System.Drawing.Size(209, 17);
+            this.cbXsfPsf2Exe_StripGsfHeader.Size = new System.Drawing.Size(253, 19);
             this.cbXsfPsf2Exe_StripGsfHeader.TabIndex = 1;
             this.cbXsfPsf2Exe_StripGsfHeader.Text = "Strip GSF Header after Decompression";
             this.cbXsfPsf2Exe_StripGsfHeader.UseVisualStyleBackColor = true;
@@ -1572,7 +1572,7 @@
             this.cbXsfPsf2Exe_IncludeOrigExt.AutoSize = true;
             this.cbXsfPsf2Exe_IncludeOrigExt.Location = new System.Drawing.Point(6, 19);
             this.cbXsfPsf2Exe_IncludeOrigExt.Name = "cbXsfPsf2Exe_IncludeOrigExt";
-            this.cbXsfPsf2Exe_IncludeOrigExt.Size = new System.Drawing.Size(234, 17);
+            this.cbXsfPsf2Exe_IncludeOrigExt.Size = new System.Drawing.Size(288, 19);
             this.cbXsfPsf2Exe_IncludeOrigExt.TabIndex = 0;
             this.cbXsfPsf2Exe_IncludeOrigExt.Text = "Include original file extension in output name";
             this.cbXsfPsf2Exe_IncludeOrigExt.UseVisualStyleBackColor = true;
@@ -1593,7 +1593,7 @@
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(6, 42);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(171, 13);
+            this.label12.Size = new System.Drawing.Size(212, 15);
             this.label12.TabIndex = 2;
             this.label12.Text = "Drag and Drop folders or files here.";
             // 
@@ -1602,7 +1602,7 @@
             this.tbXsfPsf2Exe_Source.AllowDrop = true;
             this.tbXsfPsf2Exe_Source.Location = new System.Drawing.Point(6, 19);
             this.tbXsfPsf2Exe_Source.Name = "tbXsfPsf2Exe_Source";
-            this.tbXsfPsf2Exe_Source.Size = new System.Drawing.Size(259, 20);
+            this.tbXsfPsf2Exe_Source.Size = new System.Drawing.Size(259, 23);
             this.tbXsfPsf2Exe_Source.TabIndex = 1;
             this.tbXsfPsf2Exe_Source.DragDrop += new System.Windows.Forms.DragEventHandler(this.tbXsfPsf2Exe_Source_DragDrop);
             this.tbXsfPsf2Exe_Source.DragEnter += new System.Windows.Forms.DragEventHandler(this.tbXsfPsf2Exe_Source_DragEnter);
@@ -1612,9 +1612,9 @@
             this.tabPage15.Controls.Add(this.groupBox9);
             this.tabPage15.Controls.Add(this.groupBox8);
             this.tabPage15.Controls.Add(this.groupBox7);
-            this.tabPage15.Location = new System.Drawing.Point(4, 22);
+            this.tabPage15.Location = new System.Drawing.Point(4, 24);
             this.tabPage15.Name = "tabPage15";
-            this.tabPage15.Size = new System.Drawing.Size(663, 144);
+            this.tabPage15.Size = new System.Drawing.Size(663, 142);
             this.tabPage15.TabIndex = 1;
             this.tabPage15.Text = "2sf Ripper";
             this.tabPage15.UseVisualStyleBackColor = true;
@@ -1634,7 +1634,7 @@
             // 
             this.tb2sf_FilePrefix.Location = new System.Drawing.Point(6, 19);
             this.tb2sf_FilePrefix.Name = "tb2sf_FilePrefix";
-            this.tb2sf_FilePrefix.Size = new System.Drawing.Size(100, 20);
+            this.tb2sf_FilePrefix.Size = new System.Drawing.Size(100, 23);
             this.tb2sf_FilePrefix.TabIndex = 5;
             // 
             // label16
@@ -1642,7 +1642,7 @@
             this.label16.AutoSize = true;
             this.label16.Location = new System.Drawing.Point(112, 22);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(102, 13);
+            this.label16.Size = new System.Drawing.Size(127, 15);
             this.label16.TabIndex = 6;
             this.label16.Text = "Set Name File Prefix";
             // 
@@ -1658,11 +1658,18 @@
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "Container ROM";
             // 
+            // btn2sf_BrowseContainerRom
+            // 
+            this.btn2sf_BrowseContainerRom.Location = new System.Drawing.Point(0, 0);
+            this.btn2sf_BrowseContainerRom.Name = "btn2sf_BrowseContainerRom";
+            this.btn2sf_BrowseContainerRom.Size = new System.Drawing.Size(75, 23);
+            this.btn2sf_BrowseContainerRom.TabIndex = 0;
+            // 
             // tb2sf_ContainerPath
             // 
             this.tb2sf_ContainerPath.Location = new System.Drawing.Point(6, 19);
             this.tb2sf_ContainerPath.Name = "tb2sf_ContainerPath";
-            this.tb2sf_ContainerPath.Size = new System.Drawing.Size(328, 20);
+            this.tb2sf_ContainerPath.Size = new System.Drawing.Size(328, 23);
             this.tb2sf_ContainerPath.TabIndex = 2;
             // 
             // label14
@@ -1670,7 +1677,7 @@
             this.label14.AutoSize = true;
             this.label14.Location = new System.Drawing.Point(6, 42);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(178, 13);
+            this.label14.Size = new System.Drawing.Size(216, 15);
             this.label14.TabIndex = 3;
             this.label14.Text = "Container ROM Path (Yoshi\'s Island)";
             // 
@@ -1685,12 +1692,19 @@
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Source ROM";
             // 
+            // tb2sf_Source
+            // 
+            this.tb2sf_Source.Location = new System.Drawing.Point(0, 0);
+            this.tb2sf_Source.Name = "tb2sf_Source";
+            this.tb2sf_Source.Size = new System.Drawing.Size(100, 23);
+            this.tb2sf_Source.TabIndex = 0;
+            // 
             // label15
             // 
             this.label15.AutoSize = true;
             this.label15.Location = new System.Drawing.Point(8, 42);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(108, 13);
+            this.label15.Size = new System.Drawing.Size(131, 15);
             this.label15.TabIndex = 4;
             this.label15.Text = "Drag ROM to rip here";
             // 
@@ -1698,9 +1712,9 @@
             // 
             this.tabPage18.Controls.Add(this.groupBox12);
             this.tabPage18.Controls.Add(this.groupBox11);
-            this.tabPage18.Location = new System.Drawing.Point(4, 22);
+            this.tabPage18.Location = new System.Drawing.Point(4, 24);
             this.tabPage18.Name = "tabPage18";
-            this.tabPage18.Size = new System.Drawing.Size(663, 144);
+            this.tabPage18.Size = new System.Drawing.Size(663, 142);
             this.tabPage18.TabIndex = 2;
             this.tabPage18.Text = "2sf Timer";
             this.tabPage18.UseVisualStyleBackColor = true;
@@ -1719,7 +1733,7 @@
             // 
             this.tb2sfTimer_SetPrefix.Location = new System.Drawing.Point(6, 37);
             this.tb2sfTimer_SetPrefix.Name = "tb2sfTimer_SetPrefix";
-            this.tb2sfTimer_SetPrefix.Size = new System.Drawing.Size(214, 20);
+            this.tb2sfTimer_SetPrefix.Size = new System.Drawing.Size(214, 23);
             this.tb2sfTimer_SetPrefix.TabIndex = 2;
             // 
             // groupBox11
@@ -1740,7 +1754,7 @@
             this.label20.AutoSize = true;
             this.label20.Location = new System.Drawing.Point(6, 60);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(73, 13);
+            this.label20.Size = new System.Drawing.Size(85, 15);
             this.label20.TabIndex = 3;
             this.label20.Text = "Path to SDAT";
             // 
@@ -1749,7 +1763,7 @@
             this.label18.AutoSize = true;
             this.label18.Location = new System.Drawing.Point(6, 16);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(71, 13);
+            this.label18.Size = new System.Drawing.Size(89, 15);
             this.label18.TabIndex = 2;
             this.label18.Text = "mini2sf Folder";
             // 
@@ -1757,22 +1771,22 @@
             // 
             this.tb2sfTimer_2sfDirectory.Location = new System.Drawing.Point(6, 37);
             this.tb2sfTimer_2sfDirectory.Name = "tb2sfTimer_2sfDirectory";
-            this.tb2sfTimer_2sfDirectory.Size = new System.Drawing.Size(316, 20);
+            this.tb2sfTimer_2sfDirectory.Size = new System.Drawing.Size(316, 23);
             this.tb2sfTimer_2sfDirectory.TabIndex = 0;
             // 
             // tb2sfTimer_SdartPath
             // 
             this.tb2sfTimer_SdartPath.Location = new System.Drawing.Point(6, 76);
             this.tb2sfTimer_SdartPath.Name = "tb2sfTimer_SdartPath";
-            this.tb2sfTimer_SdartPath.Size = new System.Drawing.Size(316, 20);
+            this.tb2sfTimer_SdartPath.Size = new System.Drawing.Size(316, 23);
             this.tb2sfTimer_SdartPath.TabIndex = 1;
             // 
             // tabPage16
             // 
             this.tabPage16.Controls.Add(this.tabControl6);
-            this.tabPage16.Location = new System.Drawing.Point(4, 22);
+            this.tabPage16.Location = new System.Drawing.Point(4, 24);
             this.tabPage16.Name = "tabPage16";
-            this.tabPage16.Size = new System.Drawing.Size(674, 169);
+            this.tabPage16.Size = new System.Drawing.Size(674, 167);
             this.tabPage16.TabIndex = 4;
             this.tabPage16.Text = "NDS";
             this.tabPage16.UseVisualStyleBackColor = true;
@@ -1790,10 +1804,10 @@
             // 
             this.tabPage17.Controls.Add(this.btnSdatExtractor_Cancel);
             this.tabPage17.Controls.Add(this.groupBox10);
-            this.tabPage17.Location = new System.Drawing.Point(4, 22);
+            this.tabPage17.Location = new System.Drawing.Point(4, 24);
             this.tabPage17.Name = "tabPage17";
             this.tabPage17.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage17.Size = new System.Drawing.Size(667, 140);
+            this.tabPage17.Size = new System.Drawing.Size(667, 138);
             this.tabPage17.TabIndex = 0;
             this.tabPage17.Text = "SDAT Extractor";
             this.tabPage17.UseVisualStyleBackColor = true;
@@ -1824,7 +1838,7 @@
             this.label17.AutoSize = true;
             this.label17.Location = new System.Drawing.Point(6, 42);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(147, 13);
+            this.label17.Size = new System.Drawing.Size(183, 15);
             this.label17.TabIndex = 1;
             this.label17.Text = "Drag SDAT(s) to extract here.";
             // 
@@ -1833,7 +1847,7 @@
             this.tbNDS_SdatExtractor_Source.AllowDrop = true;
             this.tbNDS_SdatExtractor_Source.Location = new System.Drawing.Point(6, 19);
             this.tbNDS_SdatExtractor_Source.Name = "tbNDS_SdatExtractor_Source";
-            this.tbNDS_SdatExtractor_Source.Size = new System.Drawing.Size(282, 20);
+            this.tbNDS_SdatExtractor_Source.Size = new System.Drawing.Size(282, 23);
             this.tbNDS_SdatExtractor_Source.TabIndex = 0;
             this.tbNDS_SdatExtractor_Source.DragDrop += new System.Windows.Forms.DragEventHandler(this.tbNDS_SdatExtractor_Source_DragDrop);
             this.tbNDS_SdatExtractor_Source.DragEnter += new System.Windows.Forms.DragEventHandler(this.tbNDS_SdatExtractor_Source_DragEnter);
@@ -1917,18 +1931,20 @@
             this.textBox1.AllowDrop = true;
             this.textBox1.Location = new System.Drawing.Point(6, 19);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(259, 20);
+            this.textBox1.Size = new System.Drawing.Size(259, 22);
             this.textBox1.TabIndex = 1;
             // 
             // Form1
             // 
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.ClientSize = new System.Drawing.Size(686, 379);
             this.Controls.Add(this.lblTimeElapsed);
             this.Controls.Add(this.lblProgressLabel);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.tbOutput);
             this.Controls.Add(this.tabControl1);
+            this.Font = new System.Drawing.Font("Meiryo UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
