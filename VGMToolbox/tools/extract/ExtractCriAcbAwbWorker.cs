@@ -35,6 +35,8 @@ namespace VGMToolbox.tools.extract
 
                 this.progressStruct.Clear();
 
+                string awbKey = null;
+
                 // ACB
                 if (ParseFile.CompareSegment(magicBytes, 0, CriAcbFile.SIGNATURE_BYTES))
                 {
@@ -44,21 +46,13 @@ namespace VGMToolbox.tools.extract
                     CriAcbFile acb = new CriAcbFile(fs, 0, extractStruct.IncludeCueIdInFileName);
                     acb.ExtractAll();
 
-                    string key = null;
-
                     if (acb.ExternalAwb != null && acb.ExternalAwb.SubKey != 0x0)
                     {
-                        key = acb.ExternalAwb.SubKey.ToString("X4");
+                        awbKey = acb.ExternalAwb.SubKey.ToString("X4");
                     }
                     else if (acb.InternalAwb != null && acb.InternalAwb.SubKey != 0x0)
                     {
-                        key = acb.InternalAwb.SubKey.ToString("X4");
-                    }
-
-                    if (key != null)
-                    {
-                        this.progressStruct.GenericMessage = String.Format("AWB SubKey: 0x{0}.{1}", key, Environment.NewLine);
-                        ReportProgress(Constants.ProgressMessageOnly, this.progressStruct);
+                        awbKey = acb.InternalAwb.SubKey.ToString("X4");
                     }
                 }
                 else if (ParseFile.CompareSegment(magicBytes, 0, CriAfs2Archive.SIGNATURE))
@@ -71,8 +65,7 @@ namespace VGMToolbox.tools.extract
 
                     if (afs2.SubKey != 0x0)
                     {
-                        this.progressStruct.GenericMessage = String.Format("AWB SubKey: 0x{0}.{1}", afs2.SubKey.ToString("X4"), Environment.NewLine);
-                        ReportProgress(Constants.ProgressMessageOnly, this.progressStruct);
+                        awbKey = afs2.SubKey.ToString("X4");
                     }
                 }
                 else
@@ -85,7 +78,12 @@ namespace VGMToolbox.tools.extract
                     if (awbOffset > 0)
                     {
                         CriAfs2Archive afs2 = new CriAfs2Archive(fs, awbOffset);
-                        afs2.ExtractAll();                    
+                        afs2.ExtractAll();
+
+                        if (afs2.SubKey != 0x0)
+                        {
+                            awbKey = afs2.SubKey.ToString("X4");
+                        }
                     }
                     else
                     {
@@ -93,7 +91,13 @@ namespace VGMToolbox.tools.extract
                         ReportProgress(Constants.ProgressMessageOnly, this.progressStruct);
                     }
                 }
-            }            
+
+                if (awbKey != null)
+                {
+                    this.progressStruct.GenericMessage = String.Format("AWB SubKey: 0x{0}.{1}", awbKey, Environment.NewLine);
+                    ReportProgress(Constants.ProgressMessageOnly, this.progressStruct);
+                }
+            }
         }        
     }
 }
