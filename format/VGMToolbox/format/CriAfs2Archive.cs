@@ -128,8 +128,15 @@ namespace VGMToolbox.format
 
         public void ExtractAll()
         {
+            string extension = Path.GetFileNameWithoutExtension(this.SourceFile);
+
+            if (this.SubKey != 0x0)
+            {
+                extension += string.Format("_[{0}]", this.SubKey.ToString("X4"));
+            }
+
             string baseExtractionFolder = Path.Combine(Path.GetDirectoryName(this.SourceFile),
-                                                       String.Format(EXTRACTION_FOLDER_FORMAT, Path.GetFileNameWithoutExtension(this.SourceFile)));
+                                                       String.Format(EXTRACTION_FOLDER_FORMAT, extension));
 
             this.ExtractAllRaw(baseExtractionFolder);
         }

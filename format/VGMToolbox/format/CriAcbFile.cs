@@ -459,10 +459,15 @@ namespace VGMToolbox.format
                         {
                             if (this.ExternalAwb != null)
                             {
+                                if (this.ExternalAwb.SubKey != 0x0)
+                                {
+                                    extAwbDestinationFolder += string.Format("_[{0}]", this.ExternalAwb.SubKey.ToString("X4"));
+                                }
+
                                 ParseFile.ExtractChunkToFile64(externalFs,
-                                    (ulong)this.ExternalAwb.Files[cue.WaveformId].FileOffsetByteAligned,
-                                    (ulong)this.ExternalAwb.Files[cue.WaveformId].FileLength,
-                                    Path.Combine(extAwbDestinationFolder, FileUtil.CleanFileName(cue.CueName)), false, false);
+                                (ulong)this.ExternalAwb.Files[cue.WaveformId].FileOffsetByteAligned,
+                                (ulong)this.ExternalAwb.Files[cue.WaveformId].FileLength,
+                                Path.Combine(extAwbDestinationFolder, FileUtil.CleanFileName(cue.CueName)), false, false);
                             }
                             else if (this.ExternalCpk != null)
                             {
@@ -478,6 +483,11 @@ namespace VGMToolbox.format
                         {
                             if (this.InternalAwb != null)
                             {
+                                if (this.InternalAwb.SubKey != 0x0)
+                                {
+                                    acbAwbDestinationFolder += string.Format("_[{0}]", this.InternalAwb.SubKey.ToString("X4"));
+                                }
+
                                 ParseFile.ExtractChunkToFile64(internalFs,
                                     (ulong)this.InternalAwb.Files[cue.WaveformId].FileOffsetByteAligned,
                                     (ulong)this.InternalAwb.Files[cue.WaveformId].FileLength,
