@@ -57,9 +57,10 @@
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1,
             this.toolStripProgressBar});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 371);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 428);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(539, 22);
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 16, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(629, 25);
             this.statusStrip1.TabIndex = 0;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -67,13 +68,13 @@
             // 
             this.toolStripStatusLabel1.AutoSize = false;
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(200, 17);
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(200, 20);
             // 
             // toolStripProgressBar
             // 
             this.toolStripProgressBar.AutoSize = false;
             this.toolStripProgressBar.Name = "toolStripProgressBar";
-            this.toolStripProgressBar.Size = new System.Drawing.Size(320, 16);
+            this.toolStripProgressBar.Size = new System.Drawing.Size(373, 19);
             // 
             // pnlLabels
             // 
@@ -81,9 +82,9 @@
             this.pnlLabels.Controls.Add(this.lblGears);
             this.pnlLabels.Controls.Add(this.lblTimeElapsed);
             this.pnlLabels.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlLabels.Location = new System.Drawing.Point(0, 352);
+            this.pnlLabels.Location = new System.Drawing.Point(0, 407);
             this.pnlLabels.Name = "pnlLabels";
-            this.pnlLabels.Size = new System.Drawing.Size(539, 19);
+            this.pnlLabels.Size = new System.Drawing.Size(629, 21);
             this.pnlLabels.TabIndex = 1;
             // 
             // lblProgressLabel
@@ -91,11 +92,11 @@
             this.lblProgressLabel.AutoSize = true;
             this.lblProgressLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblProgressLabel.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblProgressLabel.Location = new System.Drawing.Point(71, 0);
-            this.lblProgressLabel.MinimumSize = new System.Drawing.Size(456, 0);
+            this.lblProgressLabel.Location = new System.Drawing.Point(84, 0);
+            this.lblProgressLabel.MinimumSize = new System.Drawing.Size(532, 0);
             this.lblProgressLabel.Name = "lblProgressLabel";
             this.lblProgressLabel.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
-            this.lblProgressLabel.Size = new System.Drawing.Size(456, 17);
+            this.lblProgressLabel.Size = new System.Drawing.Size(532, 19);
             this.lblProgressLabel.TabIndex = 1;
             // 
             // lblGears
@@ -104,11 +105,11 @@
             this.lblGears.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblGears.Dock = System.Windows.Forms.DockStyle.Left;
             this.lblGears.Image = ((System.Drawing.Image)(resources.GetObject("lblGears.Image")));
-            this.lblGears.Location = new System.Drawing.Point(51, 0);
-            this.lblGears.MinimumSize = new System.Drawing.Size(20, 0);
+            this.lblGears.Location = new System.Drawing.Point(61, 0);
+            this.lblGears.MinimumSize = new System.Drawing.Size(23, 0);
             this.lblGears.Name = "lblGears";
             this.lblGears.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
-            this.lblGears.Size = new System.Drawing.Size(20, 17);
+            this.lblGears.Size = new System.Drawing.Size(23, 19);
             this.lblGears.TabIndex = 2;
             // 
             // lblTimeElapsed
@@ -119,7 +120,7 @@
             this.lblTimeElapsed.Location = new System.Drawing.Point(0, 0);
             this.lblTimeElapsed.Name = "lblTimeElapsed";
             this.lblTimeElapsed.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
-            this.lblTimeElapsed.Size = new System.Drawing.Size(51, 17);
+            this.lblTimeElapsed.Size = new System.Drawing.Size(61, 19);
             this.lblTimeElapsed.TabIndex = 0;
             this.lblTimeElapsed.Text = "00:00:00";
             // 
@@ -131,7 +132,7 @@
             this.pnlTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pnlTitle.Location = new System.Drawing.Point(0, 3);
             this.pnlTitle.Name = "pnlTitle";
-            this.pnlTitle.Size = new System.Drawing.Size(539, 20);
+            this.pnlTitle.Size = new System.Drawing.Size(629, 24);
             this.pnlTitle.TabIndex = 3;
             // 
             // lblTitle
@@ -148,11 +149,11 @@
             // 
             this.tbOutput.AcceptsReturn = true;
             this.tbOutput.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.tbOutput.Location = new System.Drawing.Point(0, 275);
+            this.tbOutput.Location = new System.Drawing.Point(0, 318);
             this.tbOutput.Multiline = true;
             this.tbOutput.Name = "tbOutput";
             this.tbOutput.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.tbOutput.Size = new System.Drawing.Size(539, 77);
+            this.tbOutput.Size = new System.Drawing.Size(629, 89);
             this.tbOutput.TabIndex = 2;
             this.toolTip1.SetToolTip(this.tbOutput, "Double-Click to view in your default text editor.");
             this.tbOutput.DoubleClick += new System.EventHandler(this.tbOutput_DoubleClick);
@@ -162,18 +163,18 @@
             this.pnlButtons.Controls.Add(this.btnDoTask);
             this.pnlButtons.Controls.Add(this.btnCancel);
             this.pnlButtons.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlButtons.Location = new System.Drawing.Point(0, 255);
+            this.pnlButtons.Location = new System.Drawing.Point(0, 294);
             this.pnlButtons.Name = "pnlButtons";
-            this.pnlButtons.Size = new System.Drawing.Size(539, 20);
+            this.pnlButtons.Size = new System.Drawing.Size(629, 24);
             this.pnlButtons.TabIndex = 4;
             // 
             // btnDoTask
             // 
             this.btnDoTask.AutoSize = true;
             this.btnDoTask.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnDoTask.Location = new System.Drawing.Point(419, 0);
+            this.btnDoTask.Location = new System.Drawing.Point(489, 0);
             this.btnDoTask.Name = "btnDoTask";
-            this.btnDoTask.Size = new System.Drawing.Size(60, 20);
+            this.btnDoTask.Size = new System.Drawing.Size(70, 24);
             this.btnDoTask.TabIndex = 1;
             this.btnDoTask.Text = "Do Task";
             this.btnDoTask.UseVisualStyleBackColor = true;
@@ -181,9 +182,9 @@
             // btnCancel
             // 
             this.btnCancel.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnCancel.Location = new System.Drawing.Point(479, 0);
+            this.btnCancel.Location = new System.Drawing.Point(559, 0);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(60, 20);
+            this.btnCancel.Size = new System.Drawing.Size(70, 24);
             this.btnCancel.TabIndex = 0;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -195,14 +196,15 @@
             // 
             // AVgmtForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(539, 393);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.ClientSize = new System.Drawing.Size(629, 453);
             this.Controls.Add(this.pnlButtons);
             this.Controls.Add(this.pnlTitle);
             this.Controls.Add(this.tbOutput);
             this.Controls.Add(this.pnlLabels);
             this.Controls.Add(this.statusStrip1);
+            this.Font = new System.Drawing.Font("Meiryo UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AVgmtForm";
             this.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);

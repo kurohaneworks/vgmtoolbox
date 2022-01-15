@@ -1409,7 +1409,7 @@ namespace VGMToolbox
         private void aboutToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             AboutForm aboutForm = new AboutForm();
-            aboutForm.Show();
+            aboutForm.ShowDialog();
         }
     }
 }

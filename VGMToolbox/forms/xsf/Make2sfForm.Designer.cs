@@ -2,6 +2,8 @@
 {
     partial class Make2sfForm
     {
+        static readonly float DpiScale = ((new System.Windows.Forms.Form()).CreateGraphics().DpiX) / 96;
+
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -295,7 +297,7 @@
             this.CheckBoxColumn.HeaderText = "Select";
             this.CheckBoxColumn.Name = "CheckBoxColumn";
             this.CheckBoxColumn.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.CheckBoxColumn.Width = 40;
+            this.CheckBoxColumn.Width = (int)(40 * DpiScale);
             // 
             // NumberColumn
             // 
@@ -303,7 +305,7 @@
             this.NumberColumn.Name = "NumberColumn";
             this.NumberColumn.ReadOnly = true;
             this.NumberColumn.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.NumberColumn.Width = 45;
+            this.NumberColumn.Width = (int)(45 * DpiScale);
             // 
             // FileIdColumn
             // 
@@ -311,7 +313,7 @@
             this.FileIdColumn.Name = "FileIdColumn";
             this.FileIdColumn.ReadOnly = true;
             this.FileIdColumn.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.FileIdColumn.Width = 45;
+            this.FileIdColumn.Width = (int)(45 * DpiScale);
             // 
             // SizeColumn
             // 
@@ -319,7 +321,7 @@
             this.SizeColumn.Name = "SizeColumn";
             this.SizeColumn.ReadOnly = true;
             this.SizeColumn.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.SizeColumn.Width = 50;
+            this.SizeColumn.Width = (int)(50 * DpiScale);
             // 
             // NameColumn
             // 
@@ -327,7 +329,7 @@
             this.NameColumn.Name = "NameColumn";
             this.NameColumn.ReadOnly = true;
             this.NameColumn.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.NameColumn.Width = 150;
+            this.NameColumn.Width = (int)(150 * DpiScale);
             // 
             // BankColumn
             // 
@@ -335,7 +337,7 @@
             this.BankColumn.Name = "BankColumn";
             this.BankColumn.ReadOnly = true;
             this.BankColumn.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.BankColumn.Width = 40;
+            this.BankColumn.Width = (int)(40 * DpiScale);
             // 
             // VolumeColumn
             // 
@@ -343,7 +345,7 @@
             this.VolumeColumn.MaxInputLength = 3;
             this.VolumeColumn.Name = "VolumeColumn";
             this.VolumeColumn.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.VolumeColumn.Width = 45;
+            this.VolumeColumn.Width = (int)(45 * DpiScale);
             // 
             // CprColumn
             // 
@@ -351,7 +353,7 @@
             this.CprColumn.Name = "CprColumn";
             this.CprColumn.ReadOnly = true;
             this.CprColumn.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.CprColumn.Width = 40;
+            this.CprColumn.Width = (int)(40 * DpiScale);
             // 
             // PprColumn
             // 
@@ -359,7 +361,7 @@
             this.PprColumn.Name = "PprColumn";
             this.PprColumn.ReadOnly = true;
             this.PprColumn.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.PprColumn.Width = 40;
+            this.PprColumn.Width = (int)(40 * DpiScale);
             // 
             // PlyColumn
             // 
@@ -367,7 +369,7 @@
             this.PlyColumn.Name = "PlyColumn";
             this.PlyColumn.ReadOnly = true;
             this.PlyColumn.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.PlyColumn.Width = 40;
+            this.PlyColumn.Width = (int)(40 * DpiScale);
             // 
             // Make2sfForm
             // 
