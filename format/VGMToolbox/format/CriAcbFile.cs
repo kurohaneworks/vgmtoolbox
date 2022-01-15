@@ -451,6 +451,7 @@ namespace VGMToolbox.format
                 // loop through cues and extract
                 for (int i = 0; i < CueList.Length; i++)
                 {
+                    string awbKey = string.Empty;
                     CriAcbCueRecord cue = CueList[i];
 
                     if (cue.IsWaveformIdentified)
@@ -461,13 +462,13 @@ namespace VGMToolbox.format
                             {
                                 if (this.ExternalAwb.SubKey != 0x0)
                                 {
-                                    extAwbDestinationFolder += string.Format("_[{0}]", this.ExternalAwb.SubKey.ToString("X4"));
+                                    awbKey = string.Format("_[{0}]", this.ExternalAwb.SubKey.ToString("X4"));
                                 }
 
                                 ParseFile.ExtractChunkToFile64(externalFs,
                                 (ulong)this.ExternalAwb.Files[cue.WaveformId].FileOffsetByteAligned,
                                 (ulong)this.ExternalAwb.Files[cue.WaveformId].FileLength,
-                                Path.Combine(extAwbDestinationFolder, FileUtil.CleanFileName(cue.CueName)), false, false);
+                                Path.Combine(extAwbDestinationFolder + awbKey, FileUtil.CleanFileName(cue.CueName)), false, false);
                             }
                             else if (this.ExternalCpk != null)
                             {
@@ -485,13 +486,13 @@ namespace VGMToolbox.format
                             {
                                 if (this.InternalAwb.SubKey != 0x0)
                                 {
-                                    acbAwbDestinationFolder += string.Format("_[{0}]", this.InternalAwb.SubKey.ToString("X4"));
+                                    awbKey = string.Format("_[{0}]", this.InternalAwb.SubKey.ToString("X4"));
                                 }
 
                                 ParseFile.ExtractChunkToFile64(internalFs,
                                     (ulong)this.InternalAwb.Files[cue.WaveformId].FileOffsetByteAligned,
                                     (ulong)this.InternalAwb.Files[cue.WaveformId].FileLength,
-                                    Path.Combine(acbAwbDestinationFolder, FileUtil.CleanFileName(cue.CueName)), false, false);
+                                    Path.Combine(acbAwbDestinationFolder + awbKey, FileUtil.CleanFileName(cue.CueName)), false, false);
                             }
                             else if (this.InternalCpk != null)
                             {
