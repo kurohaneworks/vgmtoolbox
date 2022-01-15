@@ -13,6 +13,7 @@ namespace VGMToolbox.util
         /// Codepage value for Shift JIS (Jp)
         /// </summary>
         public const int CodePageJapan = 932;
+
         /// <summary>
         /// Codepage value for Cyrillic (US)
         /// </summary>
@@ -22,6 +23,11 @@ namespace VGMToolbox.util
         /// Codepage value for OEM DOS
         /// </summary>
         public const int CodePageOEM = 437;
+
+        /// <summary>
+        /// Codepage value for UTF-8
+        /// </summary>
+        public const int CodePageUTF8 = 65001;
 
         private ByteConversion() { }
 
@@ -174,7 +180,7 @@ namespace VGMToolbox.util
         }
 
         /// <summary>
-        /// Predicts Code Page between Cyrillic and Shift-JIS based on whether high ASCII is included or not.
+        /// Predicts Code Page between Cyrillic and Shift-JIS, UTF-8 based on whether high ASCII is included or not.
         /// </summary>
         /// <param name="tagBytes">Bytes containing the tags in an unknown language.</param>
         /// <returns>Integer representing the predicted code page.</returns>
@@ -184,9 +190,28 @@ namespace VGMToolbox.util
 
             foreach (byte b in tagBytes)
             {
-                if ((int)b > 0x7F)
+                if ((int)b >= 0xF0 && (int)b <= 0xFD)
                 {
+                    // UTF8
+                    predictedCodePage = CodePageUTF8;
+                    break;
+                }
+                else if ((int)b >= 0x80 && (int)b <= 0x9F)
+                {
+                    // SJIS
                     predictedCodePage = CodePageJapan;
+                    break;
+                }
+                else if ((int)b >= 0xE0 && (int)b <= 0xEF)
+                {
+                    // UTF8
+                    predictedCodePage = CodePageUTF8;
+                    break;
+                }
+                else if ((int)b >= 0xC2 && (int)b <= 0xDF)
+                {
+                    // UTF8 or SJIS
+                    predictedCodePage = CodePageUTF8;
                     break;
                 }
             }
